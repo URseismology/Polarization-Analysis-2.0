@@ -65,7 +65,7 @@ def polarisation(st, plot, name='Pol_plot'):
                                         BAZ=None,
                                         fmin=0.1, fmax=10.,
                                         tstart=tstart, tend=tend, vmin=-190,
-                                        vmax=-135, fname='f''{name}',
+                                        vmax=-135, fname=f'{name}',
                                         path = '.',
                                         alpha_inc = None, alpha_elli = 1.0, alpha_azi = None,
                                         f_band_density=f_band,
