@@ -12,8 +12,10 @@ Géraldine Zenhäusern, Simon C. Stähler, John F. Clinton, Domenico Giardini, S
 
 ## Code Changes
 The original codebase was developed using Python 2. It has since been refactored and updated to ensure compatibility with Python 3 and to integrate the latest library dependencies. The following code changes was implemented:
-1. scipy.signal.hanning library has become obsolete thus it has been replaced with scipy.signal.windows.hann. Scripts containing this change: polarisation_calculation.py
-2. The string literal 'f'' this is a test {variable'} word' is incorrect and will not execute as intended. To properly format it as an f-string in Python, ensuring that the variable is correctly embedded within the string, it should be written as f'this is a test {variable} word'. This properly allows for the insertion of the variable's value within the string. More about python string literals can be found in [Python String Literals](https://realpython.com/python-raw-strings/). Scripts containing this change: polarisation_calculation.py, polarisation_plot.py
+1. scipy.signal.hanning library has become obsolete thus it has been replaced with scipy.signal.windows.hann.
+      > Scripts containing this change: polarisation_calculation.py
+3. The string literal 'f'' this is a test {variable'} word' is incorrect and will not execute as intended. To properly format it as an f-string in Python, ensuring that the variable is correctly embedded within the string, it should be written as f'this is a test {variable} word'. This properly allows for the insertion of the variable's value within the string. More about python string literals can be found in [Python String Literals](https://realpython.com/python-raw-strings/).
+      > Scripts containing this change: polarisation_calculation.py, polarisation_plot.py
 
 ## License
 This project is licensed under the terms of the GPLv3 license.
